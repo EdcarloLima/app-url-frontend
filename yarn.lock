@@ -1283,7 +1283,7 @@
     webpack "^4.0.0"
     yorkie "^2.0.0"
 
-"@vue/cli-plugin-router@^4.5.13":
+"@vue/cli-plugin-router@^4.5.13", "@vue/cli-plugin-router@~4.5.0":
   version "4.5.13"
   resolved "https://registry.nlark.com/@vue/cli-plugin-router/download/@vue/cli-plugin-router-4.5.13.tgz#0b67c8898a2bf132941919a2a2e5f3aacbd9ffbe"
   integrity sha1-C2fIiYor8TKUGRmiouXzqsvZ/74=
@@ -1433,6 +1433,11 @@
     vue-template-es2015-compiler "^1.9.0"
   optionalDependencies:
     prettier "^1.18.2"
+
+"@vue/devtools-api@^6.0.0-beta.14":
+  version "6.0.0-beta.18"
+  resolved "https://registry.npmmirror.com/@vue/devtools-api/download/@vue/devtools-api-6.0.0-beta.18.tgz?cache=0&sync_timestamp=1632352005520&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fdevtools-api%2Fdownload%2F%40vue%2Fdevtools-api-6.0.0-beta.18.tgz#84c0aff9289a57294cb97490811f69e8a0a67f8a"
+  integrity sha1-hMCv+SiaVylMuXSQgR9p6KCmf4o=
 
 "@vue/preload-webpack-plugin@^1.1.0":
   version "1.1.2"
@@ -1925,6 +1930,13 @@ aws4@^1.8.0:
   version "1.11.0"
   resolved "https://registry.npm.taobao.org/aws4/download/aws4-1.11.0.tgz?cache=0&sync_timestamp=1604101385256&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faws4%2Fdownload%2Faws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha1-1h9G2DslGSUOJ4Ta9bCUeai0HFk=
+
+axios@^0.22.0:
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.22.0.tgz#bf702c41fb50fbca4539589d839a077117b79b25"
+  integrity sha512-Z0U3uhqQeg1oNcihswf4ZD57O3NrR1+ZXhxaROaWpDmsDTx7T2HNBV2ulBtie2hwJptu8UvgnJoK+BIqdzh/1w==
+  dependencies:
+    follow-redirects "^1.14.4"
 
 babel-eslint@^10.1.0:
   version "10.1.0"
@@ -3998,7 +4010,7 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-follow-redirects@^1.0.0:
+follow-redirects@^1.0.0, follow-redirects@^1.14.4:
   version "1.14.4"
   resolved "https://registry.nlark.com/follow-redirects/download/follow-redirects-1.14.4.tgz?cache=0&sync_timestamp=1631622129411&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ffollow-redirects%2Fdownload%2Ffollow-redirects-1.14.4.tgz#838fdf48a8bbdd79e52ee51fb1c94e3ed98b9379"
   integrity sha1-g4/fSKi73XnlLuUfsclOPtmLk3k=
@@ -5077,6 +5089,11 @@ javascript-stringify@^2.0.1:
   version "2.1.0"
   resolved "https://registry.nlark.com/javascript-stringify/download/javascript-stringify-2.1.0.tgz#27c76539be14d8bd128219a2d731b09337904e79"
   integrity sha1-J8dlOb4U2L0Sghmi1zGwkzeQTnk=
+
+js-cookie@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/js-cookie/-/js-cookie-3.0.1.tgz#9e39b4c6c2f56563708d7d31f6f5f21873a92414"
+  integrity sha512-+0rgsUXZu4ncpPxRL+lNEptWMOWl9etvPHc/koSRp6MPwpRYAhmk0dUG00J4bxVV3r9uUzfo24wW0knS07SKSw==
 
 js-message@1.0.7:
   version "1.0.7"
@@ -8304,6 +8321,13 @@ vue-loader@^15.9.2:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-router@^4.0.0-0:
+  version "4.0.11"
+  resolved "https://registry.nlark.com/vue-router/download/vue-router-4.0.11.tgz?cache=0&sync_timestamp=1628495505697&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvue-router%2Fdownload%2Fvue-router-4.0.11.tgz#cd649a0941c635281763a20965b599643ddc68ed"
+  integrity sha1-zWSaCUHGNSgXY6IJZbWZZD3caO0=
+  dependencies:
+    "@vue/devtools-api" "^6.0.0-beta.14"
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.3"
